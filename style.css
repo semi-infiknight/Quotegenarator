@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Jim+Nightshade');
+body {
+  align-items: center;
+  background-attachment: fixed;
+	background-image: linear-gradient(rgba(20,20,20, .5), rgba(20,20,20, .5)), url(https://wallpaperaccess.com/full/6566348.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  margin: 0;
+  min-height: 100vh;
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+#quotation {
+  font-family: 'Jim Nightshade', script;
+  font-size: 13vmin;
+  line-height: 1.2;
+  color: white;
+  hanging-punctuation: first;
+}
+#source {
+    font-family: 'Jim Nightshade', script;
+  font-size: 13vmin;
+  line-height: 1.2;
+  color: white;
+  hanging-punctuation: first;
+}
+button { 
+  font-family: 'Assistant', sans-serif;
+  display: block;
+  padding: .5rem;
+  outline: none;
+  font-size: .8rem;
+  background: white;
+  border: 1px solid rgba(0,0,0,0.6);
+}
